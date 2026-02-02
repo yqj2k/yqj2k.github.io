@@ -4,6 +4,17 @@
 
 This changelog is manually generated and not accurate with the package.json, only to show the changes since the last release.
 
+## 1.0.0 (2026-02-02)
+
+
+### Features
+
+* 2026 updates ([#5](https://github.com/yqj2k/yqj2k.github.io/issues/5)) ([6734e86](https://github.com/yqj2k/yqj2k.github.io/commit/6734e8687311e04a9c5803149daa1a4dcba586cf))
+* add github actions deploy ([#6](https://github.com/yqj2k/yqj2k.github.io/issues/6)) ([c7b6b55](https://github.com/yqj2k/yqj2k.github.io/commit/c7b6b5588fb71defedc1cc8b2041c34783ab072a))
+* update blog info ([fd5d2af](https://github.com/yqj2k/yqj2k.github.io/commit/fd5d2afda086fb7ead9f19156a5514f73723a6b5))
+* update index ([c60f1d0](https://github.com/yqj2k/yqj2k.github.io/commit/c60f1d02c85f28331607a581d87773022f51e019))
+* workable website ([2ff94f1](https://github.com/yqj2k/yqj2k.github.io/commit/2ff94f18b77213459955314f1ae5fb1753734cc4))
+
 ## 0.5.4 - 2022-07-22
 
 ### New Features
@@ -410,4 +421,3 @@ Snippets: `reg`
 ```
 
 You should also use [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) extension.
-
