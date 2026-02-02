@@ -2,10 +2,10 @@ import * as React from 'react';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
-const links = [
-  { href: '/blog', label: 'blog' },
-  { href: '/intro', label: 'intro' },
-  { href: 'https://github.com/sam-ip/samqjip.ca', label: 'source' },
+const links: { href: string; label: string }[] = [
+  // { href: '/blog', label: 'blog' },
+  // { href: '/intro', label: 'intro' },
+  // { href: 'https://github.com/sam-ip/samqjip.ca', label: 'source' },
 ];
 
 export default function Header() {
@@ -13,7 +13,7 @@ export default function Header() {
     <header className='sticky top-0 z-50 bg-white'>
       <div className='layout flex h-14 items-center justify-between'>
         <UnstyledLink href='/' className='font-bold hover:text-gray-600'>
-          sam ip
+          Sam Ip
         </UnstyledLink>
         <nav>
           <ul className='flex items-center justify-between space-x-4'>
