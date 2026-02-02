@@ -6,12 +6,13 @@ module.exports = {
 
   reactStrictMode: true,
 
-  // Uncoment to add domain whitelist
-  // images: {
-  //   domains: [
-  //     'res.cloudinary.com',
-  //   ],
-  // },
+  // GitHub Pages static export configuration
+  // For Next.js 12.2.3, unoptimized is in experimental
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
 
   // SVGR
   webpack(config) {
